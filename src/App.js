@@ -5,13 +5,14 @@ import Contact from './Components/Contact'
 //import Projects from './Components/Projects';
 import Achievment from './Components/Acheivment';
 import AboutMe from './Components/AboutMe';
+import Skills from './Components/Skills';
 
 function App() {
   return (
 <>
 <Home/>
 <AboutMe/>
-
+<Skills/>
 <Achievment/>
 <Testimonial/>
 
