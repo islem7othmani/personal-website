@@ -11,11 +11,10 @@ import node from '../Images/node.png'
 function Skills() {
     return(
         <>
-        <div className=" text-white pb-12 pt-16" id="skills">
-            <div className='flex justify-center '>
+        <div className=" text-white pb-36 pt-16 h" id="skills">
+            <div className='flex justify-center'>
 <div className=''>
-<span className='font-bold text-2xl'>My Skills</span> 
-<p>In this section, you will find a comprehensive list of my professional skills and areas of expertise. With a solid foundation in Web Development</p>
+<span className='font-bold text-3xl flex justify-center pb-10'>My Skills</span> 
 </div>
 </div>
 <div className='flex justify-center'>
@@ -23,21 +22,21 @@ function Skills() {
 
 <div class="block p-2 bg-white border border-gray-200 rounded-lg shadow flex space-x-6 w-56 flex relative top-2 left-4 h-14">
 <img src={react} alt="" className='rounded-full h-10 shadow-xl '/>
-    <h5 class="mb-2 text-lg  font-bold tracking-tight text-gray-900 dark:text-white  ">React JS</h5>
+    <h5 class="mb-2 relative top-1 text-lg  font-bold tracking-tight text-gray-900 dark:text-white  ">React JS</h5>
     
 </div>
 
 
 <a href="#" class="block p-2 bg-white border border-gray-200 rounded-lg shadow flex space-x-6 w-56  ">
 <img src={svelte} alt="" className='rounded-full h-10 shadow-xl'/>
-    <h5 class="mb-2 text-lg  font-bold tracking-tight text-gray-900 dark:text-white ">Svelte JS</h5>
+    <h5 class="mb-2 text-lg relative top-1 font-bold tracking-tight text-gray-900 dark:text-white ">Svelte JS</h5>
     
 </a>
 
 
 <a href="#" class="block p-2 bg-white border border-gray-200 rounded-lg shadow  w-56 flex space-x-6 ">
 <img src={tailwind} alt="" className='rounded-full h-10 shadow-xl' />
-    <h5 class="mb-2 text-lg  font-bold tracking-tight text-gray-900 dark:text-white">Tailwind CSS</h5>
+    <h5 class="mb-2 text-lg relative top-1 font-bold tracking-tight text-gray-900 dark:text-white">Tailwind CSS</h5>
  
 </a>
 
@@ -47,7 +46,7 @@ function Skills() {
     <img src={html} alt="" className='rounded-full h-10 shadow-xl' />
     </div>
 
-    <h5 class=" mb-2 text-lg  font-bold tracking-tight text-gray-900 dark:text-white">HTML</h5>
+    <h5 class=" mb-2 text-lg relative top-1 font-bold tracking-tight text-gray-900 dark:text-white">HTML</h5>
   
 </a>
 <a href="#" class="block p-2 bg-white border border-gray-200 rounded-lg shadow w-56 flex  space-x-6">
@@ -55,20 +54,20 @@ function Skills() {
     <img src={css} alt=""  className='rounded-full h-10 shadow-xl'  />
     </div>
 
-    <h5 class=" mb-2 text-lg  font-bold tracking-tight text-gray-900 dark:text-white">CSS</h5>
+    <h5 class=" mb-2 text-lg relative top-1 font-bold tracking-tight text-gray-900 dark:text-white">CSS</h5>
   
 </a>
 
 
 <a href="#" class="block p-2 bg-white border border-gray-200 rounded-lg shadow w-56 flex space-x-6">
 <img src={js} alt="" className='rounded-full h-10 w-12 shadow-xl'/>
-    <h5 class="mb-2 text-lg  font-bold tracking-tight text-gray-900 dark:text-white">JavaScript</h5>
+    <h5 class="mb-2 text-lg relative top-1 font-bold tracking-tight text-gray-900 dark:text-white">JavaScript</h5>
   
 </a>
 
 <a href="#" class="block p-2 bg-white border border-gray-200 rounded-lg shadow w-56 flex space-x-6">
 <img src={go} alt="" className='rounded-full h-10 shadow-xl'/>
-    <h5 class="mb-2 text-lg  font-bold tracking-tight text-gray-900 dark:text-white">Golang</h5>
+    <h5 class="mb-2 text-lg relative top-1 font-bold tracking-tight text-gray-900 dark:text-white">Golang</h5>
   
 </a>
 <a href="#" class="block p-2 bg-white border border-gray-200 rounded-lg shadow w-56 flex space-x-6">
@@ -78,7 +77,7 @@ function Skills() {
 </a>
 <a href="#" class="block p-2 bg-white border border-gray-200 rounded-lg shadow w-56 flex space-x-6">
 <img src={dgraph} alt="" className='rounded-full h-10 shadow-xl' />
-    <h5 class="mb-2 text-lg  font-bold tracking-tight text-gray-900 dark:text-white">Dgraph</h5>
+    <h5 class="mb-2 text-lg relative top-1 font-bold tracking-tight text-gray-900 dark:text-white">Dgraph</h5>
   
 </a>
 </div>

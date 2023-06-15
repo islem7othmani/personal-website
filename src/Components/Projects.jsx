@@ -1,5 +1,7 @@
 
-
+import analytics from '../Images/analytics3.png'
+import wattpad from '../Images/wattpad.png'
+import meet from '../Images/meet.jpg'
 function Projects() {
     return(
         <>
@@ -13,7 +15,7 @@ function Projects() {
     <div class="grid gap-x-6 lg:grid-cols-3 lg:gap-x-12">
       <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0" data-te-ripple-init data-te-ripple-color="light">
         <div class="relative overflow-hidden bg-cover bg-no-repeat">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" class="w-full rounded-t-lg" />
+          <img src={analytics} class="w-full rounded-t-lg" />
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -25,11 +27,9 @@ function Projects() {
           </svg>
         </div>
         <div class="p-6">
-          <h5 class="mb-4 text-lg font-bold">Nostalgic waves</h5>
+          <h5 class="mb-4 text-lg font-bold">A/B testing Application</h5>
           <p class="mb-6">
-            Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-            placerat vulputate. Ut vulputate est non quam dignissim
-            elementum. Donec a ullamcorper diam.
+          The A/B Testing App is a powerful tool designed to help businesses optimize their online presence and improve user engagement. It provides a comprehensive platform for conducting A/B tests, allowing organizations to make data-driven decisions by comparing and analyzing different variations of their web pages.
           </p>
           <a href="#!" data-te-ripple-init data-te-ripple-color="light"
             class=" text-black inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Learn
@@ -39,7 +39,7 @@ function Projects() {
 
       <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0">
         <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/114.jpg" class="w-full rounded-t-lg" />
+          <img src={wattpad} class="w-full rounded-t-lg" />
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -51,11 +51,9 @@ function Projects() {
           </svg>
         </div>
         <div class="p-6">
-          <h5 class="mb-4 text-lg font-bold">Winter wildlife</h5>
+          <h5 class="mb-4 text-lg font-bold">Wattpad clone</h5>
           <p class="mb-6">
-            Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet diam
-            orci, nec ornare metus semper sed. Integer volutpat ornare erat
-            sit amet rutrum.
+          The Writing App Backend is the foundational technology that drives the core functionality of the writing application. It serves as the engine behind the scenes, handling essential operations, data management
           </p>
           <a href="#!" data-te-ripple-init data-te-ripple-color="light"
             class=" text-black inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Learn
@@ -65,7 +63,7 @@ function Projects() {
 
       <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
         <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/117.jpg" class="w-full rounded-t-lg" />
+          <img src={meet} class="w-full rounded-t-lg" />
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -77,11 +75,9 @@ function Projects() {
           </svg>
         </div>
         <div class="p-6">
-          <h5 class="mb-4 text-lg font-bold">Camping travel</h5>
+          <h5 class="mb-4 text-lg font-bold">Zoom clone</h5>
           <p class="mb-6">
-            Curabitur tristique, mi a mollis sagittis, metus felis mattis
-            arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
-            massa volutpat feugiat.
+          The Zoom Clone Project is an ambitious endeavor to develop a video communication platform that emulates the functionalities and features of the popular Zoom platform.
           </p>
           <a href="#!" data-te-ripple-init data-te-ripple-color="light"
             class="text-black inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Learn

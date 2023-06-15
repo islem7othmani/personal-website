@@ -24,7 +24,7 @@ function Home() {
             MERN Stack Developer And Contant Creator
           </h1>
           <p className="text-slate-500 text-xl">
-            Bachlor degree on Management Coputing Business Intelligence
+            Bachlor degree on Management Computing Business Intelligence
           </p>
           <p className="text-slate-500 text-xl">
             I derive immense joy from crafting websites and delighting in the
