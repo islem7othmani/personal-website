@@ -1,10 +1,22 @@
 
-
+import svelte from '../Images/svelte.png'
+import html from '../Images/html.jpg'
+import css from '../Images/css.jpg'
+import dgraph from '../Images/dgraph.png'
+import react from '../Images/react.png'
+import tailwind from '../Images/tailwind.png'
+import go from '../Images/go.png'
+import js from '../Images/js.png'
+import node from '../Images/node.png'
 function Stages() {
     return(
         <>
-        <div className="bg-gray-100">
-        <div className="flex justify-center relative top-28 pb-48 w-2/3 left-56 ">
+        <div className='flex' id="skills">
+        <div className="">
+        <div className="flex justify-end relative left-56 top-10 font-bold text-7xl text-indigo-950 ">
+          <h1>My Experiences & skills</h1>
+        </div>
+        <div className="flex justify-center relative pb-48 w-2/3 left-12 ">
 
 <div class="container">
           <div
@@ -15,10 +27,9 @@ function Stages() {
               <div
                 class="bg-indigo-950 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
               >
-                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <h3 class="font-semibold text-lg mb-1">fouita 02/2023 - 06/2023 </h3>
                 <p class="leading-tight text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                  quaerat?
+                  Create A/B test application as a graduation project.
                 </p>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -43,10 +54,9 @@ function Stages() {
               <div
                 class="bg-indigo-950 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
               >
-                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <h3 class="font-semibold text-lg mb-1">Sapious 06/2022 - 09/2022 </h3>
                 <p class="leading-tight text-justify">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Vitae, facilis.
+                  Create Wattpad clone as a training after we learned MERN stack.
                 </p>
               </div>
             </div>
@@ -55,10 +65,9 @@ function Stages() {
               <div
                 class="bg-indigo-950 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
               >
-                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <h3 class="font-semibold text-lg mb-1">fouita 06/2022 - 07/2022 </h3>
                 <p class="leading-tight text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                  quaerat?
+                  Develop a website to represent fouita's widgets. 
                 </p>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -84,10 +93,9 @@ function Stages() {
               <div
                 class="bg-indigo-950 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
               >
-                <h3 class="font-semibold text-lg mb-1">Lorem ipsum</h3>
+                <h3 class="font-semibold text-lg mb-1">post office 06/2021 - 08/2021 </h3>
                 <p class="leading-tight text-justify">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Vitae, facilis.
+                seasonal worker at post office for more than 2 months.
                 </p>
               </div>
             </div>
@@ -96,6 +104,49 @@ function Stages() {
         </div>
 </div>
 </div>
+<div className='relative top-56 right-36'>
+  
+<ul class="mb-8 space-y-4 text-left text-white dark:text-gray-400">
+<li class="flex items-center space-x-3">
+     
+     <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+     <span>HTML</span>
+ </li>
+    <li class="flex items-center space-x-3">
+    
+        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        <span>React JS</span>
+    </li>
+    <li class="flex items-center space-x-3">
+
+        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        <span>Svelte JS</span>
+    </li>
+    <li class="flex items-center space-x-3">
+      
+        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        <span>Tailwind Css</span>
+    </li>
+    <li class="flex items-center space-x-3">
+      
+      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+      <span>Node JS</span>
+  </li>
+    <li class="flex items-center space-x-3">
+       
+        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        <span>MongoDB</span>
+    </li>
+    <li class="flex items-center space-x-3">
+     
+        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        <span>Dgraph</span>
+    </li>
+</ul>
+
+</div>
+        </div>
+       
         </>
     )
 }

@@ -16,7 +16,7 @@ function AboutMe() {
         <div class="mb-12 lg:mb-0">
           <div
             class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14">
-            <h2 class="mb-8 text-3xl font-bold">About Me</h2>
+            <h2 class="mb-8 text-3xl font-bold text-indigo-950">About Me</h2>
 
             <p class="mb-0 text-neutral-500 dark:text-neutral-300">
             to introduce myself as a web developer and content on Youtube and Wattpad.
