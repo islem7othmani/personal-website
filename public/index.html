@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <script src="https://cdn.tailwindcss.com"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -41,5 +42,26 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div id="cursor"></div>
+    <div id="cursor2"></div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        
+      });
+    </script>
+   <script>
+       var cursor = document.querySelector( "#cursor" );
+            var cursor2 = document.querySelector( "#cursor2" );
+
+            document.addEventListener( "mousemove", function ( e )
+            {
+                cursor.style.cssText = cursor2.style.cssText = "left:" + e.clientX + "px;" + "top:" + e.clientY + "px;";
+            } )
+
+
+   </script>
   </body>
 </html>

@@ -10,7 +10,7 @@ function Projects() {
        
         <div class="container my-24 mx-auto md:px-6">
 
-  <section class="mb-32 text-center lg:text-left">
+  <section class="mb-32 text-center lg:text-left" data-aos="fade-up">
     <h2 class="mb-12 text-center text-3xl font-bold">
       Projects we are proud of
     </h2>

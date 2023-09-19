@@ -24,7 +24,7 @@ function Achievment() {
         <>
        
         <div class="container px-5 py-2 lg:px-32 lg:pt-24 max-w-full flex" id="acheive">
-  <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative bottom-0 right-6 w-2/4">
+  <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative bottom-0 right-6 w-2/4" data-aos="fade-up">
     <div class="flex w-1/2 flex-wrap ">
       <div class="w-1/2 p-1 md:p-2">
         <img
@@ -68,7 +68,7 @@ function Achievment() {
   </div>
 
 
-<div className="font-poppins text-white relative w-2/4 right-0 left-10 bottom-6">
+<div className="font-poppins text-white relative w-2/4 right-0 left-10 bottom-6" data-aos="fade-up">
   <h1 className='text-2xl font-bold pb-4 '>WebCamp Creator</h1>
 <p className='pb-2 text-gray-300'>WebCamp is an Instagram account that I created with the purpose of explaining IT terms, particularly in web development. The concept of the profile has resonated with many people, and we have received positive feedback. In fact, our efforts have attracted the attention of notable companies interested in collaborating with us.</p>
 
@@ -83,7 +83,7 @@ function Achievment() {
 
 <div class="container px-5 py-2 lg:px-32 lg:pt-24 max-w-full flex" id="acheive">
 
-<div className="font-poppins text-white relative w-2/4 right-6 bottom-10">
+<div className="font-poppins text-white relative w-2/4 right-6 bottom-10" data-aos="fade-up">
   <h1 className='text-2xl font-bold pb-4 '>Wattpad Writer</h1>
 <p className='pb-2 text-gray-300'>As a writer on Wattpad and a content creator, I actively participate in the prestigious Watty Awards, an annual recognition program that celebrates exceptional storytelling and creative talent within the Wattpad community. </p>
 
@@ -92,7 +92,7 @@ function Achievment() {
 <p className='pb-2 text-gray-300'>This esteemed platform has provided me with valuable exposure, allowing me to connect with a wide audience of readers, fellow writers, and industry professionals. Being a part of the Watty Awards has not only enriched my writing journey but has also served as a testament to my dedication and success as a writer and content creator on Wattpad.</p>
 
 </div>
-  <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative left-10 w-2/4">
+  <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative left-10 w-2/4" data-aos="fade-up">
     <div class="flex w-1/2 flex-wrap ">
       <div class="w-1/2 p-1 md:p-2">
         <img
@@ -143,7 +143,7 @@ function Achievment() {
 </div>
 
 <div class="container px-5 py-2 lg:px-32 lg:pt-24 max-w-full flex" id="acheive">
-  <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative bottom-6 right-6 w-2/4">
+  <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative bottom-6 right-6 w-2/4" data-aos="fade-up">
     <div class="flex w-1/2 flex-wrap ">
       <div class="w-1/2 p-1 md:p-2">
         <img
@@ -187,8 +187,8 @@ function Achievment() {
   </div>
 
 
-<div className="font-poppins text-white relative w-2/4 right-0 left-10 top-6 h-96 pb-12">
-  <h1 className='text-2xl font-bold pb-4 '>Youtuber +2K</h1>
+<div className="font-poppins text-white relative w-2/4 right-0 left-10 top-6 h-96 pb-12" data-aos="fade-up">
+  <h1 className='text-2xl font-bold pb-4 '>Google Club</h1>
 <p className='pb-2 text-gray-300'>I am an enthusiastic content creator specializing in anime art on YouTube, where I have established a thriving channel dedicated to showcasing my artistic talents and love for the world of anime. </p>
 
 <p className='pb-2 text-gray-300'>With a deep passion for anime and a keen eye for artistic expression, my channel serves as a platform to share my unique creations, tutorials, speedpaints, and insights into the captivating world of anime art.</p>

@@ -1,28 +1,30 @@
-import Home from './Home'
-import Testimonial from './Testimonial';
-import Footer from './Footer';
-import Contact from './Contact'
-import Projects from './Projects';
-import Achievment from './Acheivment';
-import AboutMe from './AboutMe';
-import Skills from './Skills';
-import Stages from './Stages';
+import Home from "./Home";
+import Testimonial from "./Testimonial";
+import Footer from "./Footer";
+import Contact from "./Contact";
+import Projects from "./Projects";
+import Achievment from "./Acheivment";
+import AboutMe from "./AboutMe";
+import Stages from "./Stages";
+import Skills from "./Skills";
 
 function Homepage() {
-    return(
-        <>
-        <Home/>
-<AboutMe/>
+  return (
+    <>
+      <Home />
 
-<Stages/>
-<Projects/>
-<Achievment/>
-<Testimonial/>
+      <AboutMe />
+      <Testimonial />
+      <Contact />
 
-<Contact/>
- 
- <Footer/>
-        </>
-    )
+      <Stages />
+      <Skills />
+
+      <Projects />
+      <Achievment />
+
+      <Footer />
+    </>
+  );
 }
-export default Homepage
+export default Homepage;

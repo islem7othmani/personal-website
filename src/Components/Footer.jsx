@@ -11,7 +11,7 @@ function Footer() {
         <h1 className="font-bold text-xl flex justify-center pt-12 pb-6">Let's Connect There</h1>
         <div className="flex space-x-4 flex justify-center py-6">
         <div>
-          <div className="w-72 h-22 bg-indigo-950 py-2 px-4 flex space-x-2 rounded-xl">
+          <div className="w-72 h-22 bg-gray-600 py-2 px-4 flex space-x-2 rounded-xl">
             <div>
               <span className="font-bold">LinkedIn</span>
               <p>Professional network profile</p>
@@ -22,7 +22,7 @@ function Footer() {
         </div>
 
         <div>
-          <div className="w-72 h-22 bg-indigo-950 py-2 px-4 flex space-x-2 rounded-xl">
+          <div className="w-72 h-22 bg-gray-600 py-2 px-4 flex space-x-2 rounded-xl">
             <div>
               <span className="font-bold">GitHub</span>
               <p>Github where I share my code</p>
@@ -33,7 +33,7 @@ function Footer() {
         </div>
 
         <div>
-          <div className="w-72 h-22 bg-indigo-950 py-2 px-4 flex space-x-2 rounded-xl">
+          <div className="w-72 h-22 bg-gray-600 py-2 px-4 flex space-x-2 rounded-xl">
             <div>
               <span className="font-bold">Email</span>
               <p>islemothmani159@gmail.com</p>
@@ -44,7 +44,7 @@ function Footer() {
         </div>
         </div>
         <div className="flex justify-center pb-6">
-          <div className="w-72 h-22 bg-indigo-950 py-2 px-4 flex space-x-28 rounded-xl">
+          <div className="w-72 h-22 bg-gray-600 py-2 px-4 flex space-x-28 rounded-xl">
             <div>
               <span className="font-bold">Phone Number</span>
               <p>56789282</p>
