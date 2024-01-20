@@ -1,98 +1,134 @@
-
-import analytics from '../Images/analytics3.png'
-import wattpad from '../Images/wattpad.png'
-import meet from '../Images/meet.jpg'
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import analytics from '../Images/analytics3.png';
+import wattpad from '../Images/wattpad.png';
+import meet from '../Images/meet.jpg';
+import ec from '../Images/ec.jpg';
+import chattapp from '../Images/chattapp.png';
+import facebookclone from '../Images/facebookclone.jpg';
+import videoapp from '../Images/videoapp.jpg';
 import ABtest from './ABtest';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 function Projects() {
-    return(
-        <>
-       
-        <div class="container my-24 mx-auto md:px-6">
+  const projectsData = [
+    {
+      image: videoapp,
+      title: 'Video Call',
+      description:
+        'A project of a video call application using Html, CSS, javaScript, webRTC',
+        githubLink: 'https://github.com/islem7othmani/Project_video_call',
+        videoLink: 'Your video link here',
+      },
+    {
+      image: chattapp,
+      title: 'Chat App',
+      description:
+        'Real-Time Chat Application, using React JS, TailwindCSS, Node JS, MongoDB, Express JS, Socket.io',
+        githubLink: 'https://github.com/islem7othmani/chatappSocket.io',
+        videoLink: 'Your video link here',
+      },
+    {
+      image: wattpad,
+      title: 'Wattpad Clone',
+      description:
+        'Internship project at Sapious,Backend using Node JS, MongoDB, Express JS',
+      githubLink: 'https://github.com/islem7othmani/project_wattpad-clone',
+      videoLink: 'Your video link here',
+    },
+    {
+      image: facebookclone,
+      title: 'Facebook Clone',
+      description:
+        'Project in progress using React JS, TailwindCSS, Node JS, MongoDB, Express JS',
+      githubLink: 'https://github.com/islem7othmani/FacebookClone',
+      videoLink: 'Your video link here',
+    },
+    {
+      image: analytics,
+      title: 'A/B test',
+      description:
+        'PFE project at Fouita, using Golang, Dgraph, Svelte JS, TailwindCSS',
+      githubLink: '',
+      videoLink: 'Your video link here',    
+    },
+    {
+      image: ec,
+      title: 'E-commerce Website',
+      description:
+        'Project in progress using React JS, TailwindCSS, Node JS, MongoDB, Express JS',
+      githubLink: '',
+      videoLink: 'Your video link here',    
+    }
+  ];
 
-  <section class="mb-32 text-center lg:text-left" data-aos="fade-up">
-    <h2 class="mb-12 text-center text-3xl font-bold">
-      Projects we are proud of
-    </h2>
+  const NextArrow = (props) => {
+    const { className, onClick } = props;
+    return (
+      <button className={`${className} focus:outline-none`} onClick={onClick}>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 text-gray-800 dark:text-white">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    );
+  };
 
-    <div class="grid gap-x-6 lg:grid-cols-3 lg:gap-x-12">
-      <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0" data-te-ripple-init data-te-ripple-color="light">
-        <div class="relative overflow-hidden bg-cover bg-no-repeat">
-          <img src={analytics} class="w-full rounded-t-lg" />
-          <a href="#">
-            <div
-              class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
-          </a>
-          <svg class="absolute left-0 bottom-0 text-white dark:text-neutral-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="currentColor"
-              d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-          </svg>
-        </div>
-        <div class="p-6">
-          <h5 class="mb-4 text-lg font-bold">A/B testing Application</h5>
-          <p class="mb-6">
-          The A/B Testing App is a powerful tool designed to help businesses optimize their online presence and improve user engagement. It provides a comprehensive platform for conducting A/B tests, allowing organizations to make data-driven decisions by comparing and analyzing different variations of their web pages.
-          </p>
-          <Link to="/ABtest" data-te-ripple-init data-te-ripple-color="light"
-            class=" text-black inline-block rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] ">Learn
-            more</Link>
-        </div>
-      </div>
+  const PrevArrow = (props) => {
+    const { className, onClick } = props;
+    return (
+      <button className={`${className} focus:outline-none`} onClick={onClick}>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 text-gray-800 dark:text-white">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+    );
+  };
 
-      <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0">
-        <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-          <img src={wattpad} class="w-full rounded-t-lg" />
-          <a href="#!">
-            <div
-              class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
-          </a>
-          <svg class="absolute left-0 bottom-0 text-white dark:text-neutral-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="currentColor"
-              d="M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,213.3C672,203,768,213,864,202.7C960,192,1056,160,1152,128C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-          </svg>
-        </div>
-        <div class="p-6">
-          <h5 class="mb-4 text-lg font-bold">Wattpad clone</h5>
-          <p class="mb-6">
-          The Writing App Backend is the foundational technology that drives the core functionality of the writing application. It serves as the engine behind the scenes, handling essential operations, data management
-          </p>
-          <a href='/ABtest' data-te-ripple-init data-te-ripple-color="light"
-            class="text-black inline-block rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] ">Learn
-            more</a>
-        </div>
-      </div>
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
 
-      <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-        <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-          <img src={meet} class="w-full rounded-t-lg" />
-          <a href="#!">
-            <div
-              class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
-          </a>
-          <svg class="absolute left-0 bottom-0 text-white dark:text-neutral-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="currentColor"
-              d="M0,288L48,256C96,224,192,160,288,160C384,160,480,224,576,213.3C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-          </svg>
-        </div>
-        <div class="p-6">
-          <h5 class="mb-4 text-lg font-bold">Zoom clone</h5>
-          <p class="mb-6">
-          The Zoom Clone Project is an ambitious endeavor to develop a video communication platform that emulates the functionalities and features of the popular Zoom platform.
-          </p>
-          <a href="#!" data-te-ripple-init data-te-ripple-color="light"
-            class="text-black inline-block rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] ">Learn
-            more</a>
-        </div>
-      </div>
+  return (
+    <div className="container my-24 mx-auto md:px-6">
+      <section className="mb-32 text-center lg:text-left">
+        <h2 className="mb-12 text-center text-3xl font-bold">Projects</h2>
+
+        <Slider {...settings}>
+          {projectsData.map((project, index) => (
+            <div key={index} className="mb-12 lg:mb-0">
+              <div className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]" data-te-ripple-init data-te-ripple-color="light">
+                <img src={project.image} className="w-full h-72" />
+                <a href="#!">
+                  <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
+                </a>
+              </div>
+
+              <h5 className="mb-4 text-lg font-bold">{project.title}</h5>
+              <p className="text-neutral-500 dark:text-neutral-300 -mt-4">{project.description}</p>
+              <div className='flex justify-between mt-2'>
+              {project.githubLink && (
+                <Link to={project.githubLink} className="text-pink-500 bg-white py-2 px-4">
+                  Github link
+                </Link>
+              )}
+              {project.videoLink && (
+                <span className="text-white bg-pink-500 shadow-xl py-2 px-4 rounded-lg">See video</span>
+              )}
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </section>
     </div>
-  </section>
- 
-</div>
-
-        </>
-    )
+  );
 }
-export default Projects
+
+export default Projects;
