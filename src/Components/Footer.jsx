@@ -6,7 +6,7 @@ import phone from "../Images/phone-icon.png"
 function Footer() {
   return (
     <>
-      <div id="containerFooter" className="h-96 text-white">
+      <div id="contact" className="h-96 text-white bg-black">
 
         <h1 className="font-bold text-xl flex justify-center pt-12 pb-6">Let's Connect There</h1>
         <div className="flex space-x-4 flex justify-center py-6">
@@ -55,7 +55,7 @@ function Footer() {
         </div>
         <hr className="text-gray-600 w-2/3 relative left-56"></hr>
         <p className="flex justify-center text-gray-500">
-          &copy; 2023 Islem Othmani. All rights reserved.
+          &copy; 2024 Islem Othmani. All rights reserved.
         </p>
         
       </div>

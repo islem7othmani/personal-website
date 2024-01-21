@@ -6,10 +6,11 @@ import webc4 from '../Images/webc4.png'
 import webc5 from '../Images/webc5.png'
 import webc6 from '../Images/webc6.png'
 
-import youtub1 from '../Images/youtub1.png'
-import youtub2 from '../Images/youtub2.png'
-import youtub3 from '../Images/youtub3.jpg'
-import youtub4 from '../Images/youtub4.png'
+import cyber1 from '../Images/cyber1.jpg'
+import CYBER from '../Images/CYBER.jpg'
+import googlec from '../Images/googlec.jpg'
+import googlec1 from '../Images/googlec1.jpg'
+
 import youtube5 from '../Images/youtube5.jpg'
 import youtube6 from '../Images/youtube6.jpg'
 
@@ -22,8 +23,10 @@ import wattpad6 from '../Images/wattpad6.png'
 function Achievment() {
     return(
         <>
-       
-        <div class="container px-5 py-2 lg:px-32 lg:pt-24 max-w-full flex" id="acheive">
+       <div id="acheive">
+       <div className='relative flex justify-center top-10 text-3xl font-semibold '> <h1 className=' text-white'>Interests</h1> </div>
+        <div class="container px-5 py-2 lg:px-32 lg:pt-24 max-w-full flex" >
+         
   <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative bottom-0 right-6 w-2/4" data-aos="fade-up">
     <div class="flex w-1/2 flex-wrap ">
       <div class="w-1/2 p-1 md:p-2">
@@ -83,13 +86,11 @@ function Achievment() {
 
 <div class="container px-5 py-2 lg:px-32 lg:pt-24 max-w-full flex" id="acheive">
 
-<div className="font-poppins text-white relative w-2/4 right-6 bottom-10" data-aos="fade-up">
+<div className="font-poppins text-white relative w-2/4 right-6" data-aos="fade-up">
   <h1 className='text-2xl font-bold pb-4 '>Wattpad Writer</h1>
 <p className='pb-2 text-gray-300'>As a writer on Wattpad and a content creator, I actively participate in the prestigious Watty Awards, an annual recognition program that celebrates exceptional storytelling and creative talent within the Wattpad community. </p>
 
 <p className='pb-2 text-gray-300'>The Watty Awards is a highly regarded event that honors writers from various genres and showcases their literary accomplishments. By participating in the Watty Awards, I have not only demonstrated my commitment to my craft but also my ability to captivate readers with my compelling narratives. </p>
-
-<p className='pb-2 text-gray-300'>This esteemed platform has provided me with valuable exposure, allowing me to connect with a wide audience of readers, fellow writers, and industry professionals. Being a part of the Watty Awards has not only enriched my writing journey but has also served as a testament to my dedication and success as a writer and content creator on Wattpad.</p>
 
 </div>
   <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative left-10 w-2/4" data-aos="fade-up">
@@ -145,23 +146,12 @@ function Achievment() {
 <div class="container px-5 py-2 lg:px-32 lg:pt-24 max-w-full flex" id="acheive">
   <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative bottom-6 right-6 w-2/4" data-aos="fade-up">
     <div class="flex w-1/2 flex-wrap ">
-      <div class="w-1/2 p-1 md:p-2">
-        <img
-          alt="gallery"
-          class="block h-full w-full rounded-lg object-cover object-center"
-          src={youtub1} />
-      </div>
-      <div class="w-1/2 p-1 md:p-2">
-        <img
-          alt="gallery"
-          class="block h-full w-full rounded-lg object-cover object-center"
-          src={youtub2} />
-      </div>
+      
       <div class="w-full p-1 md:p-2">
         <img
           alt="gallery"
-          class="block h-full w-full rounded-lg object-cover object-center"
-          src={youtub3}/>
+          class="block h-82 w-full rounded-lg object-cover object-center"
+          src={googlec}/>
       </div>
     </div>
     <div class="flex w-1/2 flex-wrap">
@@ -169,34 +159,31 @@ function Achievment() {
         <img
           alt="gallery"
           class="block h-full w-full rounded-lg object-cover object-center"
-          src={youtub4} />
+          src={googlec1} />
       </div>
-      <div class="w-1/2 p-1 md:p-2">
+      
+      <div class="w-2/2 p-1 md:p-2">
         <img
           alt="gallery"
           class="block h-full w-full rounded-lg object-cover object-center"
-          src={youtube5} />
-      </div>
-      <div class="w-1/2 p-1 md:p-2">
-        <img
-          alt="gallery"
-          class="block h-full w-full rounded-lg object-cover object-center"
-          src={youtube6} />
+          src={CYBER} />
       </div>
     </div>
   </div>
 
 
 <div className="font-poppins text-white relative w-2/4 right-0 left-10 top-6 h-96 pb-12" data-aos="fade-up">
-  <h1 className='text-2xl font-bold pb-4 '>Google Club</h1>
-<p className='pb-2 text-gray-300'>I am an enthusiastic content creator specializing in anime art on YouTube, where I have established a thriving channel dedicated to showcasing my artistic talents and love for the world of anime. </p>
-
-<p className='pb-2 text-gray-300'>With a deep passion for anime and a keen eye for artistic expression, my channel serves as a platform to share my unique creations, tutorials, speedpaints, and insights into the captivating world of anime art.</p>
-
+  <h1 className='text-2xl font-bold pb-4 '>Google Club ISIGK & CyberTrace ISSATSO</h1>
+  <p className='pb-2 text-gray-300'>- Part of logistic department CyberTrace ISSATSO</p>
+  <p className='pb-2 text-gray-300'>- General Secretary Google club ISIGK 2022-2023</p>
+  <p className='pb-2 text-gray-300'>- Head of sponsoring department Google club ISIGK 2021</p>
+<p className='pb-2 text-gray-300'>- I was part of the organizing team for DevFest 2021 Mahdia, collaborating with Google Developers Group Mounastir.</p>
+<p className='pb-2 text-gray-300'>- I participated in Ideathon ISIGK 2021 and secured the 3rd place for the best project idea.</p>
+<p className='pb-2 text-gray-300'>- I was part of the organizing team for ideathon ISIGK 2022</p>
 
 </div>
 </div>
-
+</div>
 
         </>
     )

@@ -11,7 +11,7 @@ function AboutMe() {
         <>
   
 
-<div className="container my-24 mt-20 mx-auto md:px-6" data-aos="fade-up">
+<div id='AboutMe' className="container my-24 mt-20 mx-auto md:px-6" data-aos="fade-up">
  
   <section class="mb-32">
   

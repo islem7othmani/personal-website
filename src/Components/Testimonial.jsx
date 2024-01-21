@@ -53,11 +53,11 @@ function Testimonial() {
                 onExit={() => setConterOn(false)}
               >
                 {CounterOn && (
-                  <CountUp start={0} end={5} duration={2} delay={0} />
+                  <CountUp start={0} end={6} duration={2} delay={0} />
                   
                 )}
               </ScrollTrigger>
-              <span className=" pl-2">project</span>
+              <span className=" pl-2">Projects</span>
             </p>
           </div>
           <div>
@@ -71,7 +71,7 @@ function Testimonial() {
                 <CountUp start={0} end={4} duration={2} delay={0} />
               )}
             </ScrollTrigger>
-            <span className="pl-2">Experience</span>
+            <span className="pl-2">Experiences</span>
             </p> 
 
           </div>
@@ -86,7 +86,7 @@ function Testimonial() {
                 <CountUp start={0} end={2} duration={2} delay={0} />
               )}
             </ScrollTrigger>
-            <span className="pl-2">Certification</span>
+            <span className="pl-2">Certifications</span>
             </p>
           </div>
         </div>
