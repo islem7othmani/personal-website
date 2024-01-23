@@ -54,9 +54,7 @@ function Footer() {
           </div>
         </div>
         <hr className="text-gray-600 w-2/3 relative left-56"></hr>
-        <p className="flex justify-center text-gray-500">
-          &copy; 2024 Islem Othmani. All rights reserved.
-        </p>
+        
         
       </div>
     </>

@@ -115,12 +115,12 @@ function Projects() {
               <p className="text-neutral-500 dark:text-neutral-300 -mt-4">{project.description}</p>
               <div className='flex justify-between mt-2'>
               {project.githubLink && (
-                <Link to={project.githubLink} className="text-pink-500 bg-white py-2 px-4">
+                <Link to={project.githubLink} className="text-pink-500 ">
                   Github link
                 </Link>
               )}
               {project.videoLink && (
-                <span className="text-white bg-pink-500 shadow-xl py-2 px-4 rounded-lg">See video</span>
+                <button className="text-pink-500 pointer-cursor">See video</button>
               )}
               </div>
             </div>

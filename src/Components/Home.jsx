@@ -4,6 +4,8 @@ import girl from "../Images/girl.png";
 import cv from "../Images/islem othmani pfe cv.pdf";
 import { Typewriter } from "react-simple-typewriter";
 import AboutMe from "./AboutMe";
+import justme from '../Images/justme.jpg'
+import card from '../styles/cardCSS.css'
 
 const Home = () => {
   const scrollToSection = (sectionId) => {
@@ -15,7 +17,7 @@ const Home = () => {
 
   const Navbar = () => {
     return (
-      <nav className="bg-black fixed w-full z-20 top-0 left-0" id="Home">
+      <nav className="bg-black fixed w-full z-20 top-0 left-0 z-50" id="Home">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center">
             <span className="self-center text-2xl font-semibold text-white">
@@ -102,11 +104,20 @@ const Home = () => {
       <div className="h-auto w-auto">
         <img src={backgroundimg} alt="hero" className="w-full mb-12 h-screen z-0" />
         <div className="absolute inset-0 overlay"></div>
-        <img src={girl} alt="" className="absolute top-28 left-28" />
+        <div className="absolute -bottom-56">
+        <div class="card absolute h-80 w-80 bottom-96 left-64 z-50">
+  <img
+    src={justme}
+    alt=""
+    class="rounded-full h-full w-full "
+  />
+</div>
+</div>
+
 
         <Navbar />
 
-        <div className="text-white absolute right-64 w-96 top-36">
+        <div className="text-white absolute right-64 w-96 top-48">
           <h1 className="text-white font-bold pb-2 text-2xl">Hello,</h1>
           <h1 className="font-extrabold text-3xl pb-4 pt-2">
             <span className="pr-2">
@@ -126,8 +137,7 @@ const Home = () => {
           </h1>
 
           <p className="text-slate-300 text-xl">
-            I derive immense joy from crafting websites and delighting in the
-            creation of exquisite UI designs for my endeavors...
+          I take immense satisfaction in developing websites and relish the process of creating robust full-stack solutions for my projects....
           </p>
           <a
             href={cv}
@@ -147,7 +157,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
     </>
+    
   );
 };
 

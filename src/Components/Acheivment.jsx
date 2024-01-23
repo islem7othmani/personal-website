@@ -10,6 +10,7 @@ import cyber1 from '../Images/cyber1.jpg'
 import CYBER from '../Images/CYBER.jpg'
 import googlec from '../Images/googlec.jpg'
 import googlec1 from '../Images/googlec1.jpg'
+import googlec2 from '../Images/google2.jpg'
 
 import youtube5 from '../Images/youtube5.jpg'
 import youtube6 from '../Images/youtube6.jpg'
@@ -71,13 +72,11 @@ function Achievment() {
   </div>
 
 
-<div className="font-poppins text-white relative w-2/4 right-0 left-10 bottom-6" data-aos="fade-up">
+<div className="font-poppins text-white relative w-2/4 right-0 left-10 bottom-2 top-4" data-aos="fade-up">
   <h1 className='text-2xl font-bold pb-4 '>WebCamp Creator</h1>
 <p className='pb-2 text-gray-300'>WebCamp is an Instagram account that I created with the purpose of explaining IT terms, particularly in web development. The concept of the profile has resonated with many people, and we have received positive feedback. In fact, our efforts have attracted the attention of notable companies interested in collaborating with us.</p>
 
-<p className='pb-2 text-gray-300'>One such company is the NFT company, Auma, which expressed their interest in our Instagram profile. They conveyed their enthusiasm to cooperate with us, stating, "It will be a pleasure for us to collaborate with you." This recognition from Auma validates the value and appeal of our content.</p>
-
-<p className='pb-2 text-gray-300'>Furthermore, an ecommerce company, T-post, reached out to us, expressing their appreciation for our style. They were intrigued and sought to connect, stating, "It would really be awesome to see you sport T-post, the world's first wearable magazine." The interest from T-post further reinforces the positive reception and potential partnerships that our Instagram account has garnered.</p>
+<p className='pb-2 text-gray-300'>One such company is the NFT company, Auma, which expressed their interest in our Instagram profile. They conveyed their enthusiasm to cooperate with us.</p>
 
 </div>
 </div>
@@ -145,31 +144,43 @@ function Achievment() {
 
 <div class="container px-5 py-2 lg:px-32 lg:pt-24 max-w-full flex" id="acheive">
   <div class=" flex flex-wrap md:-m-2 w-2/3 h-full relative bottom-6 right-6 w-2/4" data-aos="fade-up">
-    <div class="flex w-1/2 flex-wrap ">
-      
-      <div class="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          class="block h-82 w-full rounded-lg object-cover object-center"
-          src={googlec}/>
-      </div>
+
+
+  <div class="flex flex-wrap">
+  
+  <div class="w-full sm:w-1/2 p-1 md:p-2">
+    <img
+      alt="gallery"
+      class="block h-82 w-full rounded-lg object-cover object-center"
+      src={googlec}
+    />
+  </div>
+
+  <div class="w-full sm:w-1/2 p-1 md:p-2">
+    <div class="w-full p-1 md:p-2">
+      <img
+        alt="gallery"
+        class="block h-full w-full rounded-lg object-cover object-center"
+        src={googlec2}
+      />
     </div>
-    <div class="flex w-1/2 flex-wrap">
-      <div class="w-full p-1 md:p-2">
-        <img
-          alt="gallery"
-          class="block h-full w-full rounded-lg object-cover object-center"
-          src={googlec1} />
-      </div>
-      
-      <div class="w-2/2 p-1 md:p-2">
-        <img
-          alt="gallery"
-          class="block h-full w-full rounded-lg object-cover object-center"
-          src={CYBER} />
-      </div>
+
+    
+
+    <div class="w-full p-1 md:p-2">
+      <img
+        alt="gallery"
+        class="block h-full w-full rounded-lg object-cover object-center"
+        src={CYBER}
+      />
     </div>
   </div>
+
+</div>
+
+
+    </div>
+ 
 
 
 <div className="font-poppins text-white relative w-2/4 right-0 left-10 top-6 h-96 pb-12" data-aos="fade-up">
