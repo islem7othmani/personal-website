@@ -105,7 +105,7 @@ const Home = () => {
         <img src={backgroundimg} alt="hero" className="w-full mb-12 h-screen z-0" />
         <div className="absolute inset-0 overlay"></div>
         <div className="absolute -bottom-56">
-        <div class="card absolute h-80 w-80 bottom-96 left-64 z-50">
+        <div class="card absolute h-80 w-80 bottom-96 lg:left-64 xl:left-64 z-50">
   <img
     src={justme}
     alt=""

@@ -43,11 +43,11 @@ function Testimonial() {
           <div className="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
-        <div className="flex justify-around items-center relative z-50 text-white top-16 font-semibold">
-          <div className="space-y-2">
-            <p className="text-3xl flex justify-center "><i class="fas fa-folder"></i></p>
+        <div className=" flex flex-wrap justify-around gap-x-4 gap-y-4 items-center relative z-50 text-white top-16 font-semibold">
+          <div className="">
+            <p className="text-xl flex justify-center "><i class="fas fa-folder"></i></p>
             
-            <p className="text-2xl flex justify-center">
+            <p className="text-xl  flex justify-center">
               <ScrollTrigger
                 onEnter={() => setConterOn(true)}
                 onExit={() => setConterOn(false)}
@@ -61,8 +61,8 @@ function Testimonial() {
             </p>
           </div>
           <div>
-          <p className="text-3xl flex justify-center"><i class="fas fa-briefcase"></i></p> 
-          <p className="text-2xl flex justify-center"> 
+          <p className="text-xl flex justify-center"><i class="fas fa-briefcase"></i></p> 
+          <p className="text-xl  flex justify-center"> 
             <ScrollTrigger
               onEnter={() => setConterOn1(true)}
               onExit={() => setConterOn1(false)}
@@ -76,8 +76,8 @@ function Testimonial() {
 
           </div>
           <div>
-            <p className="text-3xl flex justify-center"><i class="fas fa-graduation-cap"></i></p>
-            <p className="text-2xl flex justify-center">
+            <p className="text-xl flex justify-center"><i class="fas fa-graduation-cap"></i></p>
+            <p className="text-xl  flex justify-center">
             <ScrollTrigger
               onEnter={() => setConterOn2(true)}
               onExit={() => setConterOn2(false)}

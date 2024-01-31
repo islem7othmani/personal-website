@@ -6,11 +6,11 @@ import phone from "../Images/phone-icon.png";
 function Footer() {
   return (
     <>
-      <div id="contact" className="h-auto text-white bg-black w-auto">
+      <div id="contact" className=" h-auto text-white bg-black w-auto">
 
-        <h1 className="font-bold text-xl flex justify-center pt-12 pb-6">Let's Connect There</h1>
+        <h1 className=" font-bold text-xl flex justify-center pt-12 pb-6">Let's Connect There</h1>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 py-6 mx-12">
+        <div className="mb-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 py-6 mx-12">
           <div>
             <div className="w-auto h-22 bg-gray-600 py-2 px-2 flex justify-between text-sm rounded-xl">
               <div>

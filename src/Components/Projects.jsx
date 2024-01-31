@@ -85,7 +85,6 @@ function Projects() {
       </button>
     );
   };
-
   const settings = {
     dots: true,
     infinite: true,
@@ -94,34 +93,44 @@ function Projects() {
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
-
   return (
-    <div className="container my-24 mx-auto md:px-6" id='projects'>
+    <div className="container my-24 mx-auto md:px-6" id="projects">
       <section className="mb-32 text-center lg:text-left">
         <h2 className="mb-12 text-center text-3xl font-bold">Projects</h2>
-
+  
         <Slider {...settings}>
           {projectsData.map((project, index) => (
             <div key={index} className="mb-12 lg:mb-0">
               <div className="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]" data-te-ripple-init data-te-ripple-color="light">
-                <img src={project.image} className="w-full h-72" />
+                <img src={project.image} className="w-full h-72" alt={project.title} />
                 <a href="#!">
                   <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
                 </a>
               </div>
-
+  
               <h5 className="mb-4 text-lg font-bold">{project.title}</h5>
               <p className="text-neutral-500 dark:text-neutral-300 -mt-4">{project.description}</p>
-              <div className='flex justify-between mt-2'>
-              {project.githubLink && (
-                <Link to={project.githubLink} className="text-pink-500 ">
-                  Github link
-                </Link>
-              )}
-              {project.videoLink && (
-                <button className="text-pink-500 pointer-cursor">See video</button>
-              )}
+              <div className="flex justify-between mt-2">
+                {project.githubLink && (
+                  <a href={project.githubLink} className="text-pink-500">
+                    Github link
+                  </a>
+                )}
               </div>
             </div>
           ))}
@@ -129,6 +138,7 @@ function Projects() {
       </section>
     </div>
   );
+  
 }
 
 export default Projects;

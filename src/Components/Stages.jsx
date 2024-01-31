@@ -13,7 +13,7 @@ function Stages() {
         <>
 <div className='bg-black py-16' id='experience'>
   <h1 class="mb-8 text-3xl font-bold text-white flex justify-center" >Experiences And Internships</h1>
-<ol class="relative border-l border-gray-200 dark:border-gray-700 ml-56 mt-20" data-aos="fade-up" >                  
+<ol class="relative border-l border-gray-200 dark:border-gray-700 xl:ml-56 lg:ml-56 ml-5 mt-20" data-aos="fade-up" >                  
     <li class="mb-10 ml-6" >            
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
